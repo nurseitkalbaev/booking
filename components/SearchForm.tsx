@@ -91,6 +91,7 @@ function SearchForm() {
             name="dates"
             render={({ field }) => (
               <FormItem className="flex flex-col">
+                <FormLabel className="text-white">Dates</FormLabel>
                 <FormMessage />
                 <Popover>
                   <PopoverTrigger asChild>
